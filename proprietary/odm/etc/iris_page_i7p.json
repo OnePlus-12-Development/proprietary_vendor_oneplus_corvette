@@ -1,0 +1,27 @@
+{
+	"header":
+	{
+		"type": "iris-capability",
+		"version": "2",
+		"source": "iris",
+		"platform": "iris7p",
+		"owner": "iris",
+		"grantee": "system",
+		"validity": "permanent",
+		"reserved": "none"
+	},
+	"iris_capability": [
+		"support-ffr",
+		"support-mdm",
+		"support-scs",
+                "support-scs-open",
+		"support-edca"
+	],
+	"ra_preference": [
+		"power-saved",
+		"idle-check"
+	],
+	"scs_panel_fps": {
+		"d0": [60, 90, 120]
+	}
+}

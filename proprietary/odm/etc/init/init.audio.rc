@@ -1,0 +1,8 @@
+on boot
+    setprop vendor.audio.config.voice_algo_type opve
+
+on post-fs-data
+	chown audioserver audio /dev/sipa_cmd
+	chmod 0666 /dev/sipa_cmd
+	chown audioserver audio /dev/sipa_tool
+	chmod 0666 dev/sipa_tool
