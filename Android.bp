@@ -2948,6 +2948,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libsync",
+                "libhwconfigurationutil_vendor",
                 "libz",
                 "libc",
                 "libm",
