@@ -1752,22 +1752,22 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.feature-V1-ndk \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
-    libQnnHtpV75Skel.aiboost \
-    libaiboostubwc_skel.aiboost \
-    capi_opve_v2_0 \
-    capi_v3_oprec \
-    libCalculator_skel \
-    libQnnHtpV75 \
-    libQnnHtpV75Skel \
-    libQnnSaver \
-    libSnpeHtpV75Skel \
-    libarc_htp_driver_skel \
-    libcalculator_skel \
-    libhvxFaceBeautyPre_skel \
-    libktveffect \
-    libsixth_rx_v3_5_21 \
-    nlc_bgth_v1_5 \
-    libQnnHtpV75Skel.unsigned.oplusmss \
+    odm_lib_rfsa_adsp_aiboost_signed_libQnnHtpV75Skel_so \
+    odm_lib_rfsa_adsp_aiboost_signed_libaiboostubwc_skel_so \
+    odm_lib_rfsa_adsp_capi_opve_v2_0_so \
+    odm_lib_rfsa_adsp_capi_v3_oprec_so \
+    odm_lib_rfsa_adsp_libCalculator_skel_so \
+    odm_lib_rfsa_adsp_libQnnHtpV75_so \
+    odm_lib_rfsa_adsp_libQnnHtpV75Skel_so \
+    odm_lib_rfsa_adsp_libQnnSaver_so \
+    odm_lib_rfsa_adsp_libSnpeHtpV75Skel_so \
+    odm_lib_rfsa_adsp_libarc_htp_driver_skel_so \
+    odm_lib_rfsa_adsp_libcalculator_skel_so \
+    odm_lib_rfsa_adsp_libhvxFaceBeautyPre_skel_so \
+    odm_lib_rfsa_adsp_libktveffect_so \
+    odm_lib_rfsa_adsp_libsixth_rx_v3_5_21_so \
+    odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
+    odm_lib_rfsa_adsp_oplusmss_unsigned_libQnnHtpV75Skel_so \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
