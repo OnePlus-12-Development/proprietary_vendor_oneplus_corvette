@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),corvette)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,3ad13fc6a4f4802d65e5bbb05cd0fc5d18a191b3)
+$(call add-radio-file-sha1-checked,radio/abl.img,8a7574e54e135dc449e960d3457ebbdd419415e1)
 $(call add-radio-file-sha1-checked,radio/aop.img,ea156453a92447359f8b2cc2412a6d1b67e4c11f)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,5618cc5cee696de31521c92226f93146f9897d95)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,8d09c3cb2e3d33f13687d9c2dbd82db1db41295d)
@@ -14,7 +14,7 @@ $(call add-radio-file-sha1-checked,radio/cpucp.img,82507c62f9236b38ac9c2431c60d5
 $(call add-radio-file-sha1-checked,radio/cpucp_dtb.img,3c5101d1f4f2331f833f34ae47ff33a81f63ff34)
 $(call add-radio-file-sha1-checked,radio/devcfg.img,8fdfba9ea0445abef126c37ae1bf5b70516716ed)
 $(call add-radio-file-sha1-checked,radio/dsp.img,72075bb397712d2b7753e2a8654cf8e5c2313602)
-$(call add-radio-file-sha1-checked,radio/engineering_cdt.img,22ed8100561a38f3759b09fb5bfa3effbb537a18)
+$(call add-radio-file-sha1-checked,radio/engineering_cdt.img,d8e98f6d2d2979652f20852e579e1db9e540c837)
 $(call add-radio-file-sha1-checked,radio/featenabler.img,bc582591a534eb9d9b54006d28f0440180a1c2ae)
 $(call add-radio-file-sha1-checked,radio/hyp.img,46fedb3004def701d4781346bcfe235f49a77d92)
 $(call add-radio-file-sha1-checked,radio/imagefv.img,8ea1e766405dba4284512d19504041e7f929b266)
