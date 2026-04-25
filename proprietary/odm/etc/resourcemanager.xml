@@ -94,6 +94,10 @@
         <param key="oplus_opve_err_fb" value="true"/>
         <param key="oplus_audio_daemon_pal" value="true"/>
         <param key="oplus_audio_daemon_agm" value="true"/>
+        <!-- liuhaituo@MULTIMEDAI.AUDIODRIVER.HAL, 2025/07/30, add for oplus HFP feature -->
+        <param key="OPLUS_HFP_SUPPORT" value="true"/>
+        <!-- liuhaituo@MULTIMEDAI.AUDIODRIVER.HAL, 2025/07/30, add for oplus HFP feature -->
+        <param key="OPLUS_HFP_SUPPORT" value="true"/>
     </config_params>
     <config_volume>
         <use_volume_set_param>1</use_volume_set_param>
@@ -322,6 +326,13 @@
                 </custom-config>
             </usecase>
             <usecase>
+                <custom-config key="oplus-hfp">
+                    <channels>2</channels>
+                    <bit_width>16</bit_width>
+                    <snd_device_name>handset-mic</snd_device_name>
+                </custom-config>
+            </usecase>
+            <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
                 <custom-config key="dual-mic">
                     <channels>2</channels>
@@ -481,6 +492,11 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_LOOPBACK</name>
+                <custom-config key="oplus-hfp">
+                    <channels>2</channels>
+                    <bit_width>16</bit_width>
+                    <snd_device_name>speaker-mic</snd_device_name>
+                </custom-config>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
@@ -921,6 +937,12 @@
                     <snd_device_name>mmi-speaker-right</snd_device_name>
                 </custom-config>
             </usecase>
+            <usecase>
+                <name>PAL_STREAM_LOOPBACK</name>
+                <custom-config key="oplus-hfp">
+                    <priority>1</priority>
+                </custom-config>
+            </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_HANDSET</id>
@@ -966,6 +988,12 @@
                   <snd_device_name>mmi-receiver</snd_device_name>
               </custom-config>
           </usecase>
+          <usecase>
+                <name>PAL_STREAM_LOOPBACK</name>
+                <custom-config key="oplus-hfp">
+                    <priority>1</priority>
+                </custom-config>
+            </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_WIRED_HEADPHONE</id>
@@ -1005,6 +1033,12 @@
                <name>PAL_STREAM_VOIP_RX</name>
                <priority>3</priority>
            </usecase>
+           <usecase>
+               <name>PAL_STREAM_LOOPBACK</name>
+               <custom-config key="oplus-hfp">
+                   <priority>1</priority>
+               </custom-config>
+           </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_WIRED_HEADSET</id>
@@ -1043,6 +1077,12 @@
            <usecase>
                <name>PAL_STREAM_VOIP_RX</name>
                <priority>3</priority>
+           </usecase>
+           <usecase>
+               <name>PAL_STREAM_LOOPBACK</name>
+               <custom-config key="oplus-hfp">
+                   <priority>1</priority>
+               </custom-config>
            </usecase>
          </out-device>
         <out-device>
@@ -1132,6 +1172,12 @@
                 <name>PAL_STREAM_VOIP_RX</name>
                 <priority>3</priority>
             </usecase>
+            <usecase>
+               <name>PAL_STREAM_LOOPBACK</name>
+               <custom-config key="oplus-hfp">
+                   <priority>1</priority>
+               </custom-config>
+           </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_USB_HEADSET</id>
@@ -1148,6 +1194,12 @@
                 <name>PAL_STREAM_VOIP_RX</name>
                 <priority>3</priority>
             </usecase>
+            <usecase>
+               <name>PAL_STREAM_LOOPBACK</name>
+               <custom-config key="oplus-hfp">
+                   <priority>1</priority>
+               </custom-config>
+           </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_AUX_DIGITAL_1</id>

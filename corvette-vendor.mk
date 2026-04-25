@@ -1381,6 +1381,7 @@ PRODUCT_PACKAGES += \
     libdisplayskuutils \
     libdpp_manager \
     libdpps \
+    libdtlm \
     libdualcam_optical_zoom_control_vendor \
     libdualcam_video_optical_zoom_vendor \
     libeepromcutter \
